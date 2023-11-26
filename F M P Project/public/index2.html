@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Coaching Center</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="p-3 bg-dark text-white">
+        <div class="flexMain">
+          <div class="flex1">
+      
+          </div>
+          <div class="flex2 text-center">
+            <div><strong>Welcome To Our Website</strong></div>
+          </div>
+          <div class="flex1">
+      
+          </div>
+        </div>
+      </div>
+      <div id="menuHolder">
+        <div role="navigation" class="sticky-top border-bottom border-top" id="mainNavigation">
+          <div class="flexMain">
+            <div class="flex2">
+              <button class="whiteLink siteLink" style="border-right:1px solid #eaeaea" onclick="menuToggle()"><i class="fas fa-bars me-2"></i> MENU</button>
+            </div>
+            <div class="flex3 text-center" id="siteBrand">
+              THE BEST COACHING CENTER
+            </div>
+      
+            <div class="flex2 text-end d-block d-md-none">
+              <button class="whiteLink siteLink"><i class="fas fa-search"></i></button>
+            </div>
+      
+            <div class="flex2 text-end d-none d-md-block">
+              <!-- <button class="whiteLink siteLink">REGISTER</button> -->
+              <!-- <button class="blackLink siteLink">Login</button> -->
+            </div>
+          </div>
+        </div>
+      
+        <div id="menuDrawer">
+          <div class="p-4 border-bottom">
+            <div class='row'>
+              <div class="col">
+                <select class="noStyle">
+                  <option value="english">English</option>
+                  <option value="spanish">Spanish</option>
+                  <option value="french">French</option>
+                  <option value="italian">Italian</option>
+                  <option value="hebrew">Hebrew</option>
+                </select>
+              </div>
+              <div class="col text-end ">
+                <i class="fas fa-times" role="btn" onclick="menuToggle()"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a onclick="home()" href="#" class="nav-menu-item"><i class="fas fa-home me-3"></i>Home</a>
+            <a  onclick="lecture()" href="#" class="nav-menu-item"><i class="fas fa-file-alt me-3"></i>Lectures</a>
+            <a onclick=" aboutUs()"  href="#" class="nav-menu-item"><i class="fas fa-building me-3"></i>About Us</a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./background.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block h-50 w-100 flex-column ">
+            <h2 class="text-dark p-2">The Future of Education is Here</h2>
+            <h5 class="text-dark p-2">Come and Register your self</h5>
+            <button class="btn btn-dark">REGISTER NOW</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <section  class="border p-2 mb-3 rounded row"><h4 class="p-2 m-2 pb-3 border border-top-0 border-end-0 border-start-0">Lectures For Matric
+        </h4>
+        <h4>Physics</h4>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 1 of class Matric(phy)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=lki_gN1JQj0" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 2 of class Matric(phy)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=OKEnutYB-2g" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 3 of class Matric(phy)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=qoQwCtgge1U" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 4 of class Matric(phy)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=OKEnutYB-2g" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card col" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 5 of class Matric(phy)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section  class="border p-2 mb-3 rounded row"><h4 class="p-2 m-2 pb-3 border border-top-0 border-end-0 border-start-0">Lectures For Matric
+        </h4>
+        <h4>Biology</h4>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 1 of class Matric(Bio)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=lki_gN1JQj0" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 2 of class Matric(Bio)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=OKEnutYB-2g" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 3 of class Matric(Bio)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=qoQwCtgge1U" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 4 of class Matric(Bio)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=OKEnutYB-2g" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card col" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 5 of class Matric(Bio)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+
+        </section>
+
+
+        <section  class="border p-2 mb-3 rounded row"><h4 class="p-2 m-2 pb-3 border border-top-0 border-end-0 border-start-0">Lectures For Matric
+        </h4>
+        <h4>Chemistry</h4>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 1 of class Matric(Chem)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=lki_gN1JQj0" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 2 of class Matric(Chem)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=OKEnutYB-2g" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 3 of class Matric(Chem)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=qoQwCtgge1U" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 4 of class Matric(Chem)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="https://www.youtube.com/watch?v=OKEnutYB-2g" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+        <div class="card col" style="width: 18rem;">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Lecture no 5 of class Matric(Chem)</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-body">
+            <a  href="" class="card-link"> Click Here</a>
+          
+          </div>
+        </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="header container-fluid  gb">
+          <main class="container">
+            <section class="row">
+            <div class="col-md-3 mt-3">
+              <div class="row">
+                <div class="col-3">
+                  <div class="text-warning p-2">
+                    <!-- <i class="fa-solid fa-truck fs-1"></i> -->
+                  </div>
+                </div>
+                <div class="col-9">
+                  <div class="text-center">
+                    <h5>Saperate Classes</h5>
+                    <p>Every Field have Saperate Classes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mt-3">
+              <div class="row">
+                <div class="col-3">
+                  <div class="text-warning p-2">
+                    <!-- <i class="fa-solid fa-truck fs-1"></i> -->
+                  </div>
+                </div>
+                <div class="col-9">
+                  <div class="text-center">
+                    <h5>No Notes Charges</h5>
+                    <p>Free Notes to our Students</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mt-3">
+              <div class="row">
+                <div class="col-3">
+                  <div class="text-warning p-2">
+                    <!-- <i class="fa-solid fa-truck fs-1"></i> -->
+                  </div>
+                </div>
+                <div class="col-9">
+                  <div class="text-center">
+                    <h5>Suitable Fees</h5>
+                    <p>10% Discount to our first 20 Students</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mt-3">
+              <div class="row">
+                <div class="col-3">
+                  <div class="text-warning p-2">
+                    <!-- <i class="fa-solid fa-truck fs-1"></i> -->
+                  </div>
+                </div>
+                <div class="col-9">
+                  <div class="text-center">
+                    <h5>Comfortable Timing </h5>
+                    <p>You can get admission in your favorite time</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+            <br>
+            <hr>
+            <section class="row">
+              <div class="col-md-6">
+                <div class="m-2">
+                  <h2>Coaching Information</h2> 
+                  <p>
+                  <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-location-dot"></i>
+                  Block 71 House 8 5-F North Karachi </a>
+                </p>
+                 
+                 <p>
+                 <a href="tel:0317 2218320" class="text-white text-decoration-none"> <i class="fa-solid fa-phone"></i>
+                  0317-2218320</a>
+                </p>
+                <p>
+               <a href="thebestcoaching@gmail.com" class="text-white text-decoration-none">
+                <i class="fa-solid fa-envelope"></i>
+                thebestcoaching@gmail.com
+               </a>
+                </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="text-center">
+                    <h2>Newsletter</h2>
+                    <p>Subscribe to our latest newsletter to get news about new lectures and events.</p>
+                    <div class="d-flex p-2">
+                        <input type="text" class="form-control rounded-0" placeholder="Search">
+                        <button class="btn bg-white rounded-0">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <a href="">
+                        <img src="images/icons/app-icon-1.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/icons/app-icon-2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <section class="row m-0">
+            <div class="col-md-4">
+                <div class="d-flex justify-content-around">
+                    <a href="https://www.facebook.com" class="text-white fs-3"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" class="text-white fs-3"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.rss.com" class="text-white fs-3"><i class="fa-solid fa-rss"></i></a>
+                    <a href="https://www.youtube.com" class="text-white fs-3"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.google.com" class="text-white fs-3"> <i class="fa-brands fa-google"></i></a>
+                    <a href="https://www.instagram.com" class="text-white fs-3"> <i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mt-2 m-0">
+                    <p>© 2023 - World Coaching Organization™</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-around mt-2">
+                    <img src="images/paymentImg/carte_bleue.png" alt="">
+                    <img src="images/paymentImg/visa.png" alt="">
+                    <img src="images/paymentImg/master_card.png" alt="">
+                    <img src="images/paymentImg/american_express.png" alt="">
+                    <img src="images/paymentImg/paypal.png" alt="">
+                </div>
+            </div>
+            </section>
+          </main>
+        </footer>
+
+
+
+
+
+
+
+
+  
+      <script src="./bootstrap-5.3.1-dist/js/bootstrap.min.js.map"></script>
+<script src="app.js"></script>
+</body>
+</html>
